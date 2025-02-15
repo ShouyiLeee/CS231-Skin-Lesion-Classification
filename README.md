@@ -8,6 +8,8 @@
 - Feature Extraction: Utilize the pre-trained VGG16 model to extract high-level features from the preprocessed images. We freeze the weights of the VGG16 model and only train the final layers for classification.
 - Classification:
   - Train a Support Vector Machine classifier and a KNN classifier on the extracted features to classify skin lesions into different categories.
+  - Train a VGG16 classifier from scratch.
+  - Finetune a pretrained VGG16 classifier
 - Evaluation: Evaluate the performance of the model using metrics like accuracy, precision, recall, and F1-score.
 
 **Dependencies**
